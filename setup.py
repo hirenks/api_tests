@@ -15,7 +15,7 @@ if __name__ == '__main__':
     setup(
         name='python_api_testing_in_docker',
         version=version,
-        description='Pytest Configuration Example',
+        description='Pytest API Testing',
         long_description=long_description,
         author="hiren",
         packages=find_packages(
@@ -26,18 +26,11 @@ if __name__ == '__main__':
         license='MIT',
         install_requires=requirements,
         classifiers=[
-            'Development Status :: 1 - Planning',
             'Framework :: Pytest',
             'Intended Audience :: Developers',
-            'Intended Audience :: Education',
-            'License :: OSI Approved :: MIT License',
-            'Programming Language :: Python :: 2',
-            'Programming Language :: Python :: 2.7',
-            'Programming Language :: Python :: 3',
-            'Programming Language :: Python :: 3.6',
+            'Intended Audience :: Software Developers in Test',
             'Programming Language :: Python :: 3.7',
-            'Topic :: Software Development',
-            'Topic :: Software Development :: Libraries',
+            'Topic :: Software API Testing',
             'Topic :: Software Development :: Libraries :: Python Modules'
         ],
     )
